@@ -49,19 +49,19 @@ const { ind } = require('./bahasa')
 /********** MENU SETTING **********/
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + 'FN:Sofyan AMV\n' //ganti nama lu! 
+            + 'FN:Prii\n' //ganti nama lu! 
             + 'ORG: Owner Bot;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=6281227825649:+62 812-2782-5649\n'  //ganti nomor lu! 
+            + 'TEL;type=CELL;type=VOICE;waid=628811929177:+62 881-1929-177\n'  //ganti nomor lu! 
             + 'END:VCARD'
-prefix = 'z'
+prefix = '#'
 blocked = []   
 limitawal = 20
 memberlimit = 0
 cr = '*VERIFIED*'
 
 /******** OWNER NUMBER**********/
-const ownerNumber = ["6281227825649@s.whatsapp.net"]   //ganti nomor lu! 
-const pacarNumber = ["6281534162316@s.whatsapp.net"]  //ganti nomor lu!  
+const ownerNumber = ["628811929177@s.whatsapp.net"]   //ganti nomor lu! 
+const pacarNumber = ["6281290995607@s.whatsapp.net"]  //ganti nomor lu!  
 /************************************/
 
        
@@ -3530,11 +3530,11 @@ chika.on('group-participants-update', async (anu) => {
                     wew = fs.readFileSync(`./src/logo.jpg`)
                     shiz = ` 「 *FUJIWARA CHIKA* 」
 ◪ *INFO BOT*
-  ❏ Nama: FUJIWARA CHIKA 
+  ❏ Nama: SINOMIYA KAGUYA 
   ❏ Version: 3.0
   ❏ Type: Termux
-  ❏ Owner: Sofyan AMV 
-  ❏ wa.me/6281227825649
+  ❏ Owner: PRII GANTENG 
+  ❏ wa.me/628811929177
   ----------------------------------
 ◪ *YOUR INFO*
   ❏ Nama: ${pushname}
